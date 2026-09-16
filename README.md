@@ -13,6 +13,9 @@ A simple and extensible Telegram bot project built with Python.
 
 - Python
 - Telegram Bot API
+- - python-telegram-bot
+- python-dotenv
+- 
 
 ## Installation
 
