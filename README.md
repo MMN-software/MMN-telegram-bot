@@ -1,4 +1,3 @@
-```markdown
 # MMN Telegram Bot
 
 A simple and extensible Telegram bot project built with Python.
@@ -19,32 +18,32 @@ A simple and extensible Telegram bot project built with Python.
 
 Clone the repository:
 
-git clone https://github.com/MMN-software/MMN-telegram-bot.git
-cd MMN-telegram-bot
+    git clone https://github.com/MMN-software/MMN-telegram-bot.git
+    cd MMN-telegram-bot
 
 Create a virtual environment:
 
-python -m venv venv
+    python -m venv venv
 
 Activate the virtual environment.
 
 On Windows:
 
-venv\Scripts\activate
+    venv\Scripts\activate
 
 On Linux or macOS:
 
-source venv/bin/activate
+    source venv/bin/activate
 
 Install the dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## Configuration
 
 Create a `.env` file in the project root:
 
-BOT_TOKEN=your_telegram_bot_token
+    BOT_TOKEN=your_telegram_bot_token
 
 Never publish your real bot token or other sensitive information on GitHub.
 
@@ -52,16 +51,16 @@ Never publish your real bot token or other sensitive information on GitHub.
 
 Run the bot with:
 
-python bot.py
+    python bot.py
 
 ## Project Structure
 
-MMN-telegram-bot/
-├── bot.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
+    MMN-telegram-bot/
+    ├── bot.py
+    ├── requirements.txt
+    ├── .env.example
+    ├── .gitignore
+    └── README.md
 
 ## License
 
